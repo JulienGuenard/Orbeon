@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1674193022069790}
+  m_IsPrefabParent: 1
+--- !u!1 &1674193022069790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4953905385896498}
+  - component: {fileID: 114539509967211268}
+  - component: {fileID: 114755600324448950}
+  m_Layer: 0
+  m_Name: FeuIndirect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4953905385896498
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114539509967211268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e943ddd2f20214b8f4eafa5267c461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  costPA: 2
+  range: 5
+  isLinear: 0
+  areaOfEffect: 0
+  damagePR: 0
+  damagePA: 0
+  damagePM: 0
+  reverseDamageOnAlly: 0
+  elementCreated: 0
+  pushValue: 0
+  pushDirection: 8
+  pushType: 0
+  hurtWhenStopped: 1
+  absorbInvoc: 0
+  explosion: 0
+  summonedObj: {fileID: 114910890263424662, guid: d6496e8c0af292840b671d7275d79827,
+    type: 2}
+  rotateSummon: 0
+  summonOnCross: 0
+  isDirect: 0
+  nextSpell: {fileID: 0}
+  buttonSprite: {fileID: 21300000, guid: 2cef2f5f51ab3be4fb6a7a1549755592, type: 3}
+  tooltipTitle: Invocation du feu primordial
+  tooltipRange: "<color=#bbbbbbff>Port\xE9e : </color>5 cases"
+  tooltipCost: "<color=#bbbbbbff>Co\xFBt : </color>2 mana"
+  tooltipEffect: "<color=#bbbbbbff>Limite de lancer par cible: </color>1\n<color=#bbbbbbff>Cibles:
+    </color>alli\xE9, ennemi, balle, case vide\nInvoque un feu primordial \xE0 l'emplacement
+    cibl\xE9 qui inflige 1 d\xE9g\xE2t \xE0 l'entit\xE9 qui le traverse."
+  maxUsePerTurn: 2
+  animatorSpell: {fileID: 9100000, guid: bae8a29eb97ba61468b018622db02aa4, type: 2}
+  affectedTarget: 47
+  allowedTarget: 47
+--- !u!114 &114755600324448950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 7
+    i1: 21
+    i2: 55
+    i3: 50
+    i4: 148
+    i5: 0
+    i6: 71
+    i7: 132
+    i8: 168
+    i9: 218
+    i10: 126
+    i11: 201
+    i12: 110
+    i13: 145
+    i14: 112
+    i15: 101
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

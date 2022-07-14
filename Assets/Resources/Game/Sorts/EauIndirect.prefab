@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1674193022069790}
+  m_IsPrefabParent: 1
+--- !u!1 &1674193022069790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4953905385896498}
+  - component: {fileID: 114539509967211268}
+  - component: {fileID: 114755600324448950}
+  m_Layer: 0
+  m_Name: EauIndirect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4953905385896498
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114539509967211268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e943ddd2f20214b8f4eafa5267c461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  costPA: 2
+  range: 5
+  isLinear: 0
+  areaOfEffect: 0
+  damagePR: 0
+  damagePA: 0
+  damagePM: 0
+  reverseDamageOnAlly: 0
+  elementCreated: 3
+  pushValue: 0
+  pushDirection: 0
+  pushType: 1
+  hurtWhenStopped: 0
+  absorbInvoc: 0
+  explosion: 0
+  summonedObj: {fileID: 114910890263424662, guid: a6e453462b76b3944b3723776e6a82d9,
+    type: 2}
+  rotateSummon: 0
+  summonOnCross: 0
+  isDirect: 0
+  nextSpell: {fileID: 0}
+  buttonSprite: {fileID: 21300000, guid: 60a0ed00cb02b454fa56640fc16a99a8, type: 3}
+  tooltipTitle: Fracture du cenote
+  tooltipRange: "<color=#bbbbbbff>Port\xE9e : </color>5 cases"
+  tooltipCost: "<color=#bbbbbbff>Co\xFBt : </color>2 mana"
+  tooltipEffect: "<color=#bbbbbbff>Limite de lancer par cible: </color>1\n<color=#bbbbbbff>Cibles:
+    </color>alli\xE9, ennemi, balle, case vide\nInvoque un cenote \xE0 l'emplacement
+    cibl\xE9 qui soigne de 1 PV et arr\xEAte le d\xE9placement de l'entit\xE9 qui
+    la traverse."
+  maxUsePerTurn: 3
+  animatorSpell: {fileID: 9100000, guid: 9fe560b6a5895a74bb77cf012023b40d, type: 2}
+  affectedTarget: 15
+  allowedTarget: 15
+--- !u!114 &114755600324448950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 140
+    i1: 14
+    i2: 40
+    i3: 80
+    i4: 148
+    i5: 146
+    i6: 236
+    i7: 196
+    i8: 121
+    i9: 80
+    i10: 237
+    i11: 198
+    i12: 240
+    i13: 233
+    i14: 92
+    i15: 114
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

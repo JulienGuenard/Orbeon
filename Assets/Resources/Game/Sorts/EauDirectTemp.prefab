@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1674193022069790}
+  m_IsPrefabParent: 1
+--- !u!1 &1674193022069790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4953905385896498}
+  - component: {fileID: 114539509967211268}
+  - component: {fileID: 114755600324448950}
+  m_Layer: 0
+  m_Name: EauDirectTemp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4953905385896498
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114539509967211268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e943ddd2f20214b8f4eafa5267c461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  costPA: 4
+  range: 4
+  isLinear: 1
+  areaOfEffect: 0
+  damagePR: -1
+  damagePA: 0
+  damagePM: 0
+  reverseDamageOnAlly: 0
+  elementCreated: 3
+  pushValue: 0
+  pushDirection: 8
+  pushType: 1
+  hurtWhenStopped: 0
+  absorbInvoc: 0
+  explosion: 1
+  summonedObj: {fileID: 0}
+  rotateSummon: 0
+  summonOnCross: 0
+  isDirect: 1
+  nextSpell: {fileID: 0}
+  buttonSprite: {fileID: 21300000, guid: 2aab7f3f735bbeb45aa92fcaea3a7cdf, type: 3}
+  tooltipTitle: Direct <color=#ff0000ff>Feu</color>
+  tooltipRange: "<color=#bbbbbbff>Port\xE9e : </color>4 cases"
+  tooltipCost: "<color=#bbbbbbff>Co\xFBt : </color>4 mana"
+  tooltipEffect: "Repousse 1 case \xE0 1 PT de la cible.\nCr\xE9e 4 cases feu \xE0
+    1 PO de la cible."
+  maxUsePerTurn: 2
+  animatorSpell: {fileID: 9100000, guid: c44c913fb1c45e647b2b3a42cf17c3f1, type: 2}
+  affectedTarget: 59
+  allowedTarget: 59
+--- !u!114 &114755600324448950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 107
+    i1: 216
+    i2: 201
+    i3: 177
+    i4: 40
+    i5: 132
+    i6: 163
+    i7: 68
+    i8: 26
+    i9: 192
+    i10: 50
+    i11: 196
+    i12: 163
+    i13: 73
+    i14: 167
+    i15: 159
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
