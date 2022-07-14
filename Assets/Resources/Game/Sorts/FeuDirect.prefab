@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1674193022069790}
+  m_IsPrefabParent: 1
+--- !u!1 &1674193022069790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4953905385896498}
+  - component: {fileID: 114539509967211268}
+  - component: {fileID: 114755600324448950}
+  m_Layer: 0
+  m_Name: FeuDirect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4953905385896498
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114539509967211268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e943ddd2f20214b8f4eafa5267c461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  costPA: 4
+  range: 4
+  isLinear: 1
+  areaOfEffect: 0
+  damagePR: 1
+  damagePA: 0
+  manaIncrementPerSummon: 0
+  damagePM: 0
+  reverseDamageOnAlly: 0
+  elementCreated: 0
+  pushValue: 0
+  pushDirection: 8
+  pushType: 1
+  hurtWhenStopped: 0
+  absorbInvoc: 0
+  explosion: 1
+  summonedObj: {fileID: 0}
+  rotateSummon: 0
+  summonOnCross: 0
+  isDirect: 1
+  nextSpell: {fileID: 0}
+  buttonSprite: {fileID: 21300000, guid: 2aab7f3f735bbeb45aa92fcaea3a7cdf, type: 3}
+  tooltipTitle: "D\xE9flagration de Xiuhtecuhtli"
+  tooltipRange: "<color=#bbbbbbff>Port\xE9e : </color>4 cases"
+  tooltipCost: "<color=#bbbbbbff>Co\xFBt : </color>4 mana"
+  tooltipEffect: "<color=#bbbbbbff>Limite de lancer par cible: </color>1\n<color=#bbbbbbff>Cibles:
+    </color>alli\xE9, ennemi, balle\nInflige 1 d\xE9g\xE2t \xE0 l'entit\xE9 cibl\xE9e
+    et repousse d'une case toutes celles autour de lui."
+  maxUsePerTurn: 2
+  animatorSpell: {fileID: 9100000, guid: c44c913fb1c45e647b2b3a42cf17c3f1, type: 2}
+  animatorSpell2: {fileID: 0}
+  animatorSpell3: {fileID: 9100000, guid: 4131f625de0edcb4da63e0e4ae79ebe6, type: 2}
+  animatorSpell4: {fileID: 9100000, guid: 248a6180ecae8d8418cda79e5c6b180f, type: 2}
+  fxPositionModifier: {x: 0, y: 0, z: 0}
+  fxPositionModifier2: {x: 0, y: 0, z: 0}
+  affectedTarget: 59
+  allowedTarget: 59
+--- !u!114 &114755600324448950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674193022069790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 220
+    i1: 148
+    i2: 171
+    i3: 151
+    i4: 6
+    i5: 124
+    i6: 54
+    i7: 100
+    i8: 234
+    i9: 156
+    i10: 205
+    i11: 92
+    i12: 93
+    i13: 122
+    i14: 48
+    i15: 80
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
