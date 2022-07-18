@@ -10,9 +10,6 @@ https://archer01-tactic-turn-based-unity.hashnode.dev/
 
 Note: Le projet a été arrêté il y a 3 ans (2019), certains noms de fichiers, de dossiers ou l'organisation sont un peu bordélique.
 
-## Bugs connus
-La version WebGL affiche des carrés roses à la place du shader prévu
-
 ## Crédit
 Julien Guénard : Développeur Unity
 Arthur Llorens : Développeur Unity
