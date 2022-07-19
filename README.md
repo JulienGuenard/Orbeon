@@ -1,4 +1,8 @@
 # Orbeon
+## Description du git
+Ce git est là pour montrer la partie script du projet, tout le reste est enlevé pour des raisons de tailles acceptable sur Github, le projet unity complet est disponible ici :
+https://drive.google.com/file/d/1ANxhCk37DhUt_x30QQrz_DT7BBJMYeGi/view?usp=sharing
+
 ## Description du projet
 Jeu tactique en tour par tour sur le thème du football aztèque, Orbeon est un jeu de joueur contre joueur dans lequel il faut envoyer la balle dans le but adverse grâce aux pouvoirs de votre équipe (tornade, murs...) pour la rediriger.
 
