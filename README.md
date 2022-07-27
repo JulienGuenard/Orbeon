@@ -8,6 +8,9 @@ Jeu tactique en tour par tour sur le thème du football aztèque, Orbeon est un 
 
 C'est mon projet de fin d'année d'étude de Manager de jeu vidéo, dans lequel j'étais chef de projet et à la fois développeur en codant la plupart du jeu.
 
+## Lien du jeu
+https://archer01.itch.io/orbeon
+
 ## Dev Blog
 Pour retrouver la logique que j'ai eu à certain moment de faire tel ou tel choses, rendez-vous ici :
 https://archer01-tactic-turn-based-unity.hashnode.dev/
