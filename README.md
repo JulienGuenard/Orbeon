@@ -27,17 +27,17 @@ https://drive.google.com/file/d/1ANxhCk37DhUt_x30QQrz_DT7BBJMYeGi/view?usp=shari
 
 ---
 
+## Crédit
+* Julien Guénard : Développeur Unity
+* Arthur Llorens : Développeur Unity
+* Rindra Rakotomanga : Artiste 2D
+* Jean-Maxime Pichon : Game Designer
+
+---
+
 ## Liens
   * <a href="https://www.youtube.com/channel/UCwxuydeEi6WyM-X6nsPs-8A">Youtube</a>
   * <a href="https://archer01.itch.io/">Itch.io</a>
   * <a href="https://hashnode.com/@Archer01">Hashnode (Dev Blog)</a>
   * <a href="https://www.linkedin.com/in/julienguenard/">Linkedin</a>
   * <a href="https://twitter.com/julien_guenard">Twitter</a>
-
----
-
-## Crédit
-* Julien Guénard : Développeur Unity
-* Arthur Llorens : Développeur Unity
-* Rindra Rakotomanga : Artiste 2D
-* Jean-Maxime Pichon : Game Designer
