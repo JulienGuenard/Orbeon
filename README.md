@@ -37,7 +37,7 @@ https://drive.google.com/file/d/1ANxhCk37DhUt_x30QQrz_DT7BBJMYeGi/view?usp=shari
 ---
 
 ## Crédit
-Julien Guénard : Développeur Unity
-Arthur Llorens : Développeur Unity
-Rindra Rakotomanga : Artiste 2D
-Jean-Maxime Pichon : Game Designer
+* Julien Guénard : Développeur Unity
+* Arthur Llorens : Développeur Unity
+* Rindra Rakotomanga : Artiste 2D
+* Jean-Maxime Pichon : Game Designer
